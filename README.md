@@ -1,5 +1,21 @@
 # LeetCode Practice Environment Generator 🚀
 
+# READ THIS FIRST
+# SETUP
+
+🧱 Step 2: Create a virtual environment
+
+
+This keeps your dependencies clean and isolated.
+
+```bash
+python3 -m venv leetcode-env
+```
+Activate it:
+```bash
+source leetcode-env/bin/activate
+```
+
 [![tests](https://img.shields.io/github/actions/workflow/status/wisarootl/leetcode-py/ci-test.yml?branch=main&label=tests&logo=github)](https://github.com/wisarootl/leetcode-py/actions/workflows/ci-test.yml)
 [![release](https://img.shields.io/github/actions/workflow/status/wisarootl/leetcode-py/cd.yml?branch=main&label=release&logo=github)](https://github.com/wisarootl/leetcode-py/actions/workflows/cd.yml)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=wisarootl_leetcode-py&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=wisarootl_leetcode-py)
